@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+xmlsn:="http://www.example.com/myprimerrdfs#"
+xml:base="http://www.example.com/myprimerrdfs"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:sioc="http://rdfs.org/sioc/spec/"
+xmlns:myNameSpace="http://www.example.com/myprimerrdf#">
+
+
+<rdfs:Class rdf:about="#Tweet"/>
+<rdfs:Class rdf:about="#User"/>
+
+<rdfs:Property rdf:about="#content">
+	<rdfs:domain rdf:resource="#Tweet"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdfs:Property>
+
+<rdfs:Property rdf:about="#creator">
+	<rdfs:domain rdf:resource="#Tweet"/>
+	<rdfs:domain rdf:resource="#User"/>
+</rdfs:Property>
+
+<rdfs:Property rdf:about="#userAccount">
+	<rdfs:domain rdf:resource="#User"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdfs:Property>
+
+<Tweet rdf:about="tweet111">
+	<creator rdf:resource="user211"/>
+	<content>"Un tweet"</content>
+</Tweet>
+
+<User rdf:about="user211">
+	<userAccount>"@pepe"</userAccount>
+</User>
+
+</rdf:RDF>

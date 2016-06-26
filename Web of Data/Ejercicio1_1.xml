@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:region="http://www.country-regions.fake/">
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Oxford">
+	<dc:title>Oxford</dc:title>
+	<dc:coverage>Oxfordshire</dc:coverage>
+	<dc:publisher>Wikipedia</dc:publisher>
+	<region:population>10000</region:population>
+	<region:principaltown rdf:resource="http://www.country-regions.fake/oxford"/>
+</rdf:Description>
+ 
+</rdf:RDF>
+
+ 
+
+ -------------------------
+ 
+ 1. Numero de resources referenciados: Se referencia 1 resource (principaltown)
+
+ 2. Nombre del sujeto de la descripción: Oxford
+
+ 3. URI del sujeto de la descripción: http://en.wikipedia.org/wiki/Oxford
+
+ 4. Nombre de predicados o propiedades para describir el sujeto: "title", "coverage", "publisher", "population", "principaltown"
+
+ 5. Objetos de tipo Literales referenciados por los predicados: "Oxford", "Oxfordshire", "Wikipedia", "10000"
+
+ 6. Objetos de tipo resource referenciados por los predicados: "http://www.country-regions.fake/oxford"
+
+ 7. Vocabularios reutilizados: URI y namespace: 
+ 
+		xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:region="http://www.country-regions.fake/"
+
+ 8. Tag utilizado para describir el documento: <rdf:RDF></rdf:RDF>
+ 
+ 9. Tag RDF utlizado para describir el recurso: <rdf:Description></rdf:Description>
