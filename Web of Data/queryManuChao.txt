@@ -1,0 +1,11 @@
+PREFIX ns1: <http://wwww.w3.org/1999/xhtml/vocab#>
+PREFIX ns2: <http://schema.org/>
+PREFIX ns3: <fb:>
+PREFIX ns4: <http://www.w3.org/ns/rdfa#>
+PREFIX ns5: <http://ogp.me/ns#>
+
+SELECT ?o ?name
+WHERE {
+	?o rdf:type ns2:MusicRecording.
+	?o ns2:name ?name
+}
