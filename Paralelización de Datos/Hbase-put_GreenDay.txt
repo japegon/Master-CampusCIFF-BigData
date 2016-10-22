@@ -1,0 +1,67 @@
+put 'discografia:discos', '1990#0', 'grupo', 'Green Day'
+put 'discografia:discos', '1990#0', 'nombre_disco', '39/Smooth'
+put 'discografia:discos', '1990#0', 'anio', '1990'
+
+put 'discografia:discos', '1992#0', 'grupo', 'Green Day'
+put 'discografia:discos', '1992#0', 'nombre_disco', 'Kerplunk'
+put 'discografia:discos', '1992#0', 'anio', '1992'
+
+put 'discografia:discos', '1994#1', 'grupo', 'Green Day'
+put 'discografia:discos', '1994#1', 'nombre_disco', 'Dookie'
+put 'discografia:discos', '1994#1', 'anio', '1994'
+put 'discografia:discos', '1994#1', 'ranking:EEUU', '2'
+put 'discografia:discos', '1994#1', 'ranking:UK', '13'
+
+put 'discografia:discos', '1995#0', 'grupo', 'Green Day'
+put 'discografia:discos', '1995#0', 'nombre_disco', 'Insomniac'
+put 'discografia:discos', '1995#0', 'anio', '1995'
+put 'discografia:discos', '1995#0', 'ranking:EEUU', '2'
+put 'discografia:discos', '1995#0', 'ranking:UK', '8'
+
+put 'discografia:discos', '1997#0', 'grupo', 'Green Day'
+put 'discografia:discos', '1997#0', 'nombre_disco', 'Nimrod'
+put 'discografia:discos', '1997#0', 'anio', '1997'
+put 'discografia:discos', '1997#0', 'ranking:EEUU', '10'
+put 'discografia:discos', '1997#0', 'ranking:UK', '11'
+
+put 'discografia:discos', '2000#0', 'grupo', 'Green Day'
+put 'discografia:discos', '2000#0', 'nombre_disco', 'Warning'
+put 'discografia:discos', '2000#0', 'anio', '2000'
+put 'discografia:discos', '2000#0', 'ranking:EEUU', '4'
+put 'discografia:discos', '2000#0', 'ranking:UK', '4'
+
+put 'discografia:discos', '2004#0', 'grupo', 'Green Day'
+put 'discografia:discos', '2004#0', 'nombre_disco', 'American Idiot'
+put 'discografia:discos', '2004#0', 'anio', '2004'
+put 'discografia:discos', '2004#0', 'ranking:EEUU', '1'
+put 'discografia:discos', '2004#0', 'ranking:UK', '1'
+
+put 'discografia:discos', '2009#0', 'grupo', 'Green Day'
+put 'discografia:discos', '2009#0', 'nombre_disco', '21st Century Breakdown'
+put 'discografia:discos', '2009#0', 'anio', '2009'
+put 'discografia:discos', '2009#0', 'ranking:EEUU', '1'
+put 'discografia:discos', '2009#0', 'ranking:UK', '1'
+
+put 'discografia:discos', '2012#0', 'grupo', 'Green Day'
+put 'discografia:discos', '2012#0', 'nombre_disco', '¡Uno!'
+put 'discografia:discos', '2012#0', 'anio', '2012'
+put 'discografia:discos', '2012#0', 'ranking:EEUU', '2'
+put 'discografia:discos', '2012#0', 'ranking:UK', '2'
+
+put 'discografia:discos', '2012#1', 'grupo', 'Green Day'
+put 'discografia:discos', '2012#1', 'nombre_disco', '¡Dos!'
+put 'discografia:discos', '2012#1', 'anio', '2012'
+put 'discografia:discos', '2012#1', 'ranking:EEUU', '9'
+put 'discografia:discos', '2012#1', 'ranking:UK', '10'
+
+put 'discografia:discos', '2012#2', 'grupo', 'Green Day'
+put 'discografia:discos', '2012#2', 'nombre_disco', '¡Tré!'
+put 'discografia:discos', '2012#2', 'anio', '2012'
+put 'discografia:discos', '2012#2', 'ranking:EEUU', '13'
+put 'discografia:discos', '2012#2', 'ranking:UK', '31'
+
+put 'discografia:discos', '2016#2', 'grupo', 'Green Day'
+put 'discografia:discos', '2016#2', 'nombre_disco', 'Revolution Radio'
+put 'discografia:discos', '2016#2', 'anio', '2016'
+put 'discografia:discos', '2016#2', 'ranking:UK', '1'
+
